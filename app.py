@@ -119,7 +119,7 @@ def export_to_docx(content):
 # Streamlit UI
 st.title("AI Statement of Work (SoW) Generator")
 
-uploaded_file = st.file_uploader("Upload base contract or scope document (PDF or DOCX)", type=["pdf", "docx"])
+uploaded_file = st.file_uploader("Upload all relevant/to-date client presentation, proposal, scope document and even base contracts which you wish this to be based on (PDF or DOCX)", type=["pdf", "docx"])
 user_desc = st.text_area("Describe the goods/services and business context")
 
 # LawInsider examples are now always included
